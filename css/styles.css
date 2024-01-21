@@ -9,7 +9,7 @@ body {
   height: 30vh;
 
   margin: 40vh;
-  margin-left: 1%;
+  margin-left: -20%;
   margin-right: 10%;
 
   padding-right: 20px;
@@ -112,6 +112,10 @@ html {
 h1 {
   font-size: 60px;
   margin: 0;
+}
+
+img {
+  margin-left:40%;
 }
 
 #image {
