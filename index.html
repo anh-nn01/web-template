@@ -11,7 +11,7 @@
 
     <nav class="same-line">
         <div class="topnav left">
-            <a href="#home">Jason Devers</a>
+            <a href="#home">Anh N. Nhu</a>
         </div>
         <div class="topnav right">
             <a href="#home">Home</a>
@@ -26,12 +26,12 @@
     <section id="home">
 
         <div class="same-line-panel">
-            <img src="https://media.licdn.com/dms/image/C4E03AQFwxNdQ6iUv3g/profile-displayphoto-shrink_800_800/0/1603834531317?e=2147483647&v=beta&t=HknrB-eU7SJtjnIw0hTMP3dAO5W4f_6gS3VF8cWMeTk" alt="logo" width="200" height="200">  
+            <img src="Anh_photo.JPG" alt="logo" width="250" height="250">  
             <!-- this was the only way I could get the image to show up -->
             <div class="center">
-                <h1>Jason Devers</h1>
+                <h1>Anh N. Nhu</h1>
                 <h2>Undergraduate Student</h2>
-                <h3>Computer Science</h3>
+                <h3>Computer Science; Machine Learning Track</h3>
             </div>
 
         </div>
@@ -43,7 +43,14 @@
         <div class="same-line-panel reveal">
 <!-- <img id="logo" src=logo.png> -->
             <div class="panel">
-                <p>My favorite number is 2. Check out what I mean<a href="https://github.com/jsondevers/overflown/blob/main/writing/beauty-of-two/README.md" > here</a> </p>
+                <p>Hi! I'm Anh Nhu, a senior in Computer Science at the University of Maryland, College Park (UMD). 
+                    I am currently focusing on Machine Learning research, specifically in subareas such as Deep Learning, Representation Learning, Explainable AI, and Physics-Informed Machine Learning.
+                    My research interests strongly lie in the intersection of AI/Machine Learning and Physical Sciences, including but not limited to Climate Science, Astrophysics, and Remote Sensing. <br><br>
+                    My works on AI4Science and AI for Sustainability at Purdue University, UMD, NASA Harvest, and NASA GSFC had been published and presented at various venues, including but not limited to ACM and IEEE. 
+                    My long-term career goal is to become an AI research scientist who can work on interdisciplinary projects that help discovering critical insights about our planet and the universe from large-scale scientific data, 
+                    impacting billions of lives and pushing the boundary of human knowledge.<br><br>
+                    If you are curious about my work, please consider skimming through my publications on Google Scholar to know more about me!
+                    <a href="https://scholar.google.com/citations?user=jl5-YL8AAAAJ&hl=en" > <u>My Google Scholar</u> </a> </p>
             </div>
 
         </div>
@@ -53,21 +60,34 @@
             <h1 class="section-header">Projects</h1>
             <div class="row">
                 <div class="column reveal" style="background-color:#A4969B;">
-                    <h2>Parallel Programming Conway's Game of Life</h2>
-                    <p> Designed and optimized parallel algorithms to efficiently distribute the computational workload across 512 processes, resulting in a significant reduction in overall execution time and increased scalability of the application. </p>
+                    <h2>Physics-Guided Reinforcement Learning System for Realistic Vehicle Active Suspension Control</h2>
+                    <p> 
+                        Designed and implemented a Reinforcement Learning agent (DDPG) that learn to control the car quarter suspension so that the vertical movements of the car's body is minimizede, ensuring a comfort ride experience for passengers.
+                        Unlike previous work, our work explicitly consider the physical contraints of the actual mechanical system and train the agent to actively control the suspension in real-time under such real constraints.
+                        Quantitatively, our algorithm outperforms passive systems in reducing the average vehicle body velocity and acceleration by 43.58% and 17.22%, respectively, minimizing the vertical movement impacts on the passengers. <br>
+
+                        See my <a href="https://conferences.computer.org/icmlapub23/pdfs/ICMLA2023-5c7aMwQuVPRWIchNJyGdNb/453400a422/453400a422.pdf" > <u>Paper</u> </a>. <br>
+                        (Username: icmlapub23; Password: conf23//)
+                    </p>
                 </div>
                 <div class="column reveal" style="background-color:#BFB5B9;">
-                    <h2>RA Bot</h2>
-                    <p>Designed a bot to interact with my residents via GroupMe while I'm in class.</p>
-                    <p>RA bot is able to remind residents of important events,
-                        check for profanity, help with FAQs, let them know when
-                        there’s chicken-tenders at the dining hall, and play games</p>
+                    <h2>Generate Map from Satellite Imagery using Generative Adversarial Network</h2>
+                    <p>
+                        Designed and implemented Pix2Pix, a general Deep Learning framework for image translation task, specifically for translating satellite imagery to equivalent map.
+                    </p>
+                    <p>
+                        The algorithm takes any satellite image as the input, run inference through its U-Net backbone, and output an image of the same size with equivalent map representation. <br><br>
+                        My repository has received 31 stars and 6 forks on GitHub so far. Please check it out <a href="https://github.com/anh-nn01/Satellite-Imagery-to-Map-Translation-using-Pix2Pix-GAN-framework" > <u>here</u> </a>. <br>
+                    </p>
                 </div>
                 <div class="column reveal" style="background-color:#D1CACD;">
-                    <h2>Heart Attack Analysis</h2>
-                    <p>Created linear regressions, trained and tested models, then
-                        creating classifiers (Decision Trees, KNN, Random Forest)
-                        that had 85%+ accuracy, and more.</p>
+                    <h2>AI Lunar Lander</h2>
+                    <p>
+                        Created an AI agent that use Double Deep Q-learning in Reinforcement Learning to learn by itself how to land a Lunar Lander in OpenAI Gym environment.
+                        With optimization through trial-and-error, the agent successfully solved the game after about 500 games, landing the lundar lander to the target on the Moon's surface safely and quickly. <br><br>
+                        
+                        There are total 14 stars and 6 forks for this project on GitHub so far. Please check my project <a href="https://github.com/anh-nn01/Lunar-Lander-Double-Deep-Q-Networks" > <u>here</u> </a>!
+                    </p>
                 </div>
             </div>
         </div>
@@ -75,19 +95,19 @@
 <!-- Autograder Comment --><!-- Autograder Comment --></body>
 <footer>
     <div class="leftFooter">
-        jdevers1@umd.edu
-    </div>
-    <div class="rightFooter">
-        <a href="https://github.com/jsondevers" class="fa fa-github" style="font-size:36px"></a>
-
+        anhu@terpmail.umd.edu
     </div>
     <div class="rightFooterr">
-        <a href="https://www.linkedin.com/in/jsondev/" class="fa fa-linkedin" style="font-size:36px"></a>
-
+        <a href="https://github.com/anh-nn01" class="fa fa-github" style="font-size:36px"></a>
     </div>
     <div class="rightFooterr">
-        <a href="https://www.instagram.com/deversfit/" class="fa fa-instagram" style="font-size:36px"></a>
-
+        <a href="https://www.linkedin.com/in/anh-nhu-86938b1a2/" class="fa fa-linkedin" style="font-size:36px"></a>
+    </div>
+    <div class="rightFooterr">
+        <a href="https://www.instagram.com/anh.nn01/" class="fa fa-instagram" style="font-size:36px"></a>
+    </div>
+    <div class="rightFooterr">
+        <a href="https://www.facebook.com/anhnhu.anthony2211" class="fa fa-facebook" style="font-size:36px"></a>
     </div>
 </footer>
 </footer>
